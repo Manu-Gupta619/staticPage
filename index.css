@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+}
+.navbarRoot {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+.navbarLogo {
+  flex: 1;
+}
+
+.navbarLinks {
+  flex: 1;
+}
+.navbarParentChild {
+  display: flex;
+  justify-items: space-between;
+  padding: 20px;
+  justify-self: flex-start;
+}
+.navbarParentChild li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.navbarLogoImg {
+  width: 200px;
+  height: auto;
+}
+.navbarButton {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.navbarActualButton {
+  font-size: 15px;
+  background-color: blue;
+  padding: 12px 20px;
+  border-radius: 15px;
+}
+
+.header1 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.sectionPart2 {
+  height: 500px;
+  width: "100%";
+  background-image: url("./asset/Free\ Download\ Background\ Images\ For\ Website\ Design\ FreedomReply.jpg");
+  background-size: cover; /* Adjust the size behavior as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Position the image at the center */
+  display: flex;
+  padding: 0 200px;
+}
+.sectionChild1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+  align-items: center;
+  row-gap: 45px;
+}
+
+.borderBottom {
+  height: 2px;
+  width: 150px;
+  background-color: white;
+}
+.button {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.sectionPart3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.headingWithBottomBorder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.headingWithBottomBorder h3 {
+  font-size: 30px;
+}
+.headerBottomBorder {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin-top: 10px;
+}
+.part3ChildRoot {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 30px;
+  padding: 0 50px;
+}
+
+.part3Child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 80px;
+}
+
+.part3Child:hover {
+  border-radius: 100px;
+  background-color: aquamarine;
+}
+.part3ChildImg {
+  width: 200px;
+  height: auto;
+}
+.part3Childheading {
+  margin: 20px 0;
+}
+.part3ChildPara {
+  font-size: 18px;
+  text-align: center;
+}
+
+.dividerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-image: url("./asset/Free\ Download\ Background\ Images\ For\ Website\ Design\ FreedomReply.jpg");
+  background-size: cover; /* Adjust the size behavior as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Position the image at the center */
+}
+
+.dividerSection div {
+  margin-bottom: 0;
+}
+
+.dividerSection h3 {
+  color: white;
+}
+
+.sectionPart4 {
+  display: flex;
+  height: 600px;
+  padding: 20px 50px;
+}
+
+.section4Child1 {
+  flex: 1;
+  background-color: aqua;
+  background-image: url("./asset/Free Download Background Images For Website Design FreedomReply.jpg");
+}
+.section4Child2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4Child2 h4 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.anotherDivider {
+  display: flex;
+  background-image: url("./asset/Free\ Download\ Background\ Images\ For\ Website\ Design\ FreedomReply.jpg");
+  background-size: cover; /* Adjust the size behavior as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Position the image at the center */
+}
+
+.anotherDividerChild1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.anotherDivider h2 {
+  font-size: 44px;
+  color: white;
+}
+.anotherDividerChild2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anotherDividerChild2 li {
+  color: white;
+  margin-top: 5px;
+}
+
+.sectionPart5 {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(87, 87, 228);
+  padding-top: 25px;
+}
+
+.section5child2Modified {
+  padding: 50px;
+}
+.sectionPart5 p {
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.section6Card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background-size: 50%;
+  padding: 30px 120px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.332);
+  overflow: hidden;
+}
+
+.cardImgWrapper {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%; /* 50% of the container's height */
+  background: linear-gradient(to right, #0074d9, #00bfff);
+  z-index: -5;
+}
+
+.section6Cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.sectionPart8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  column-gap: 50px;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.section8Card {
+  position: relative;
+  width: 40%;
+}
+.section8CardDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%; /* 50% of the container's height */
+  background: rgba(0, 0, 0, 0.518);
+  color: white;
+  font-size: 35px;
+}
+.section8Img {
+  height: auto;
+  width: 100%;
+}
+
+.sectionPart9 {
+  display: flex;
+  width: 100%;
+  margin: 50px;
+}
+
+.section9Child1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section9FormCard {
+  height: 90%;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+.section9Child2 {
+  flex: 1;
+  height: 700px;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section9Img {
+  height: 100%;
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
